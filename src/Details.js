@@ -17,14 +17,14 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
+import projectImage1 from "./assets/projects/project1.png";
 
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Balaji R",
   tagline: "Frontend Dev | UI/UX",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I specialize in Frontend Development and UI/UX design, focusing on creating intuitive interfaces and seamless user experiences. With a passion for clean code and aesthetic design, I aim to deliver impactful digital solutions that resonate with users.`,
 };
 
 // Enter your Social Media URLs here
@@ -84,12 +84,11 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Zomato Clone",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `An interactive Zomato clone frontend application that replicates the core features of the popular food delivery platform.`,
+    techstack: "HTML/CSS, React",
+    previewLink: "https://zomato-clones.onrender.com/",
+    githubLink: "https://github.com/balajigithubwork/zomato-clone",
   },
 ];
