@@ -78,7 +78,7 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-5 md:mt-0 ml-7">
         <img
           ref={myimageref}
           className="w-4/5 md:ml-auto"
