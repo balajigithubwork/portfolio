@@ -15,6 +15,9 @@
 .section {
   @apply pt-28 xl:pt-28 2xl:pt-44;
 }
+.mainsection {
+  @apply pt-28 xl:pt-0 2xl:pt-44;
+}
 .text-content {
   @apply dark:text-light-content text-dark-content;
 }
