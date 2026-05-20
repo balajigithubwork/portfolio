@@ -1,21 +1,24 @@
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        primary: "Poppins, sans-serif",
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
-      colors: {
-        "light-content": "#A7A7A7",
-        "dark-heading": "#1f2428",
-        "dark-content": "#666666",
-        "light-heading": "#CCCCCC",
-        "dark-mode": "#191919",
-        "dark-card": "#363636",
-        "green-text": "#018C0F",
-        "greenbg": "#D7FFE0",
+      animation: {
+        'float': 'float 6s ease-in-out infinite',
       },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-20px)' },
+        }
+      }
     },
   },
   plugins: [],
-};
+}
