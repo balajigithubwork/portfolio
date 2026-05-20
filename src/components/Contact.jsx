@@ -126,7 +126,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-slate-800 mb-2">Connect with me</h3>
                   <div className="flex gap-3">
                     <motion.a
-                      href="https://github.com"
+                      href="https://github.com/balajigithubwork"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.1, backgroundColor: "#1e293b", color: "white" }}
@@ -135,7 +135,7 @@ const Contact = () => {
                       <FiGithub size={18} />
                     </motion.a>
                     <motion.a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/balajir11/"
                       target="_blank"
                       rel="noopener noreferrer"
                       whileHover={{ scale: 1.1, backgroundColor: "#1e293b", color: "white" }}
